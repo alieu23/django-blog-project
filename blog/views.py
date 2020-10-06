@@ -27,3 +27,7 @@ def home(request):
 
 def about(request):
      return render(request, 'blog/about.html')
+
+
+def detail(request):
+    return render(request, 'blog/detail.html')
